@@ -4,12 +4,12 @@ import java.util.Scanner;
 
 public class Task3 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int n = scanner.nextInt();
+        Scanner s = new Scanner(System.in);
+        int n = s.nextInt();
         List<Integer> list = new ArrayList<>();
         int summ = 0;
         for (int i = 0; i < n; i++) {
-            int value = scanner.nextInt();
+            int value = s.nextInt();
             list.add(value);
             if (i % 2 == 0) {
                 summ += value;
